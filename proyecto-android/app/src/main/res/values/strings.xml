@@ -7,7 +7,7 @@
     <string name="a11y_descripcion">Lee el texto visible en pantalla para detectar enlaces de phishing. Todo se analiza en el propio teléfono: la app no tiene permiso de Internet y no guarda ni envía lo que lee. Los campos de contraseña se ignoran.</string>
 
     <!-- Ayuda -->
-    <string name="ayuda_enlace">?  Ayuda</string>
+    <string name="ayuda_enlace">\?  Ayuda</string>
     <string name="ayuda_principal_titulo">Cómo funciona</string>
     <string name="ayuda_principal">El Centinela vigila el texto que aparece en pantalla (mensajes, correos, páginas web) y te avisa si encuentra un enlace sospechoso.\n\n• Todo ocurre en tu teléfono. La app no tiene permiso de Internet, así que nada puede salir de él.\n• Los textos se analizan en memoria y no se guardan. Los campos de contraseña se ignoran.\n• Primero compara el enlace con tu lista de amenazas; si no está, aplica comprobaciones locales: IP directa, terminaciones sospechosas, enlaces acortados y marcas imitadas.\n\nPara activarlo: Ajustes → Accesibilidad → El Centinela.\nSi Android indica «ajuste restringido», entra en Información de la app → menú ⋮ → Permitir ajustes restringidos y vuelve a intentarlo.\n\nPara actualizar la lista: guarda la dirección de tu Generador de Listas, copia el enlace de descarga, descarga el .txt desde el navegador y pulsa «Importar lista».</string>
 
