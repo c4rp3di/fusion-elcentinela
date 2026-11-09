@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">El Centinela</string>
+    <string name="subtitulo">Anti-phishing totalmente local · sin permiso de Internet</string>
+
+    <string name="a11y_nombre">El Centinela</string>
+    <string name="a11y_descripcion">Lee el texto visible en pantalla para detectar enlaces de phishing. Todo se analiza en el propio teléfono: la app no tiene permiso de Internet y no guarda ni envía lo que lee. Los campos de contraseña se ignoran.</string>
+
+    <!-- Ayuda -->
+    <string name="ayuda_enlace">?  Ayuda</string>
+    <string name="ayuda_principal_titulo">Cómo funciona</string>
+    <string name="ayuda_principal">El Centinela vigila el texto que aparece en pantalla (mensajes, correos, páginas web) y te avisa si encuentra un enlace sospechoso.\n\n• Todo ocurre en tu teléfono. La app no tiene permiso de Internet, así que nada puede salir de él.\n• Los textos se analizan en memoria y no se guardan. Los campos de contraseña se ignoran.\n• Primero compara el enlace con tu lista de amenazas; si no está, aplica comprobaciones locales: IP directa, terminaciones sospechosas, enlaces acortados y marcas imitadas.\n\nPara activarlo: Ajustes → Accesibilidad → El Centinela.\nSi Android indica «ajuste restringido», entra en Información de la app → menú ⋮ → Permitir ajustes restringidos y vuelve a intentarlo.\n\nPara actualizar la lista: guarda la dirección de tu Generador de Listas, copia el enlace de descarga, descarga el .txt desde el navegador y pulsa «Importar lista».</string>
+
+    <!-- Protección -->
+    <string name="seccion_proteccion">Protección</string>
+    <string name="servicio_activo">● Protección activa</string>
+    <string name="servicio_inactivo">● Protección desactivada</string>
+    <string name="servicio_inactivo_ayuda">Actívala en Ajustes → Accesibilidad → El Centinela.</string>
+    <string name="btn_activar_accesibilidad">Activar en Accesibilidad</string>
+    <string name="btn_ajustes_accesibilidad">Ajustes de accesibilidad</string>
+    <string name="overlay_ok">● Ventanas flotantes permitidas</string>
+    <string name="overlay_no">● Ventanas flotantes sin permitir. La alerta se mostrará igualmente con el método de accesibilidad; permitirlas la hace más fiable.</string>
+    <string name="btn_permiso_ventanas">Permitir ventanas flotantes</string>
+
+    <!-- Lista de amenazas -->
+    <string name="seccion_lista">Lista de amenazas</string>
+    <string name="lista_vacia">Todavía no hay ninguna lista importada. Mientras tanto solo funcionan las comprobaciones locales.</string>
+    <string name="lista_estado">Lista actualizada el %1$s. %2$s dominios cargados</string>
+    <string name="lista_antigua">⚠ Han pasado %1$d días desde la última actualización. Te recomendamos actualizar la lista.</string>
+    <string name="hint_enlace_generador">Dirección de tu Generador de Listas</string>
+    <string name="ejemplo_enlace_generador">https://usuario.github.io/listas.html</string>
+    <string name="enlace_formato">Debe empezar por http:// o https://</string>
+    <string name="lista_instrucciones">1. Copia el enlace de descarga y ábrelo en tu navegador.\n2. Descarga la lista (.txt).\n3. Pulsa «Importar lista» y elige ese archivo.</string>
+    <string name="btn_copiar_descarga">Copiar enlace de descarga</string>
+    <string name="btn_importar">Importar lista</string>
+    <string name="enlace_vacio">Escribe primero la dirección de tu Generador de Listas.</string>
+
+    <!-- Importación -->
+    <string name="import_leyendo">Leyendo y comprobando el archivo…</string>
+    <string name="import_guardando">Guardando dominios…</string>
+    <string name="import_no_txt">Elige un archivo .txt</string>
+    <string name="import_muy_grande">El archivo pesa %1$s y supera el máximo de 20 MB. No se ha importado.</string>
+    <string name="import_error_leer">No se pudo leer el archivo.</string>
+    <string name="import_titulo">Importar lista</string>
+    <string name="import_incompleto">El archivo parece incompleto o dañado (solo %1$s dominios válidos). ¿Seguro que quieres importarlo?</string>
+    <string name="import_resumen">Se han leído %1$s líneas. %2$s dominios válidos (%3$s ignorados). ¿Importar ahora?</string>
+    <string name="import_corruptas">Líneas corruptas: %1$s.</string>
+    <string name="import_sin_validos">El archivo no contiene ningún dominio válido. No se ha importado nada.</string>
+    <string name="import_btn_importar">Importar</string>
+    <string name="import_btn_igualmente">Importar igualmente</string>
+    <string name="import_btn_cancelar">Cancelar</string>
+    <string name="import_ok">Lista importada: %1$s dominios</string>
+    <string name="import_fallo">No se pudo importar la lista. Se mantiene la anterior.</string>
+
+    <!-- Privacidad -->
+    <string name="seccion_privacidad">Privacidad</string>
+    <string name="privacidad_texto">Sin permiso de Internet: nada sale del teléfono. Los textos de la pantalla se analizan en memoria y no se guardan, y los campos de contraseña se ignoran. Lo único que se guarda es la lista de dominios que tú importas.</string>
+
+    <!-- Alerta flotante -->
+    <string name="alerta_titulo_critico">Enlace peligroso</string>
+    <string name="alerta_titulo_sospechoso">Enlace sospechoso</string>
+    <string name="alerta_subtitulo">El Centinela · análisis local</string>
+    <string name="alerta_descartar">Descartar</string>
+    <string name="alerta_copiar">Copiar enlace</string>
+    <string name="enlace_copiado">Enlace copiado</string>
+
+    <!-- Motivos -->
+    <string name="motivo_lista">Está en tu lista de amenazas (coincide con %1$s)</string>
+    <string name="motivo_ip">Usa una dirección IP en lugar de un nombre de dominio</string>
+    <string name="motivo_tld">Terminación «.%1$s» muy usada en fraudes</string>
+    <string name="motivo_acortado">Enlace acortado: oculta el destino real</string>
+    <string name="motivo_marca">Imita a «%1$s», pero no es su dominio oficial</string>
+    <string name="motivo_arroba">Lleva «@»: lo que va antes de la arroba no es el destino real</string>
+</resources>
